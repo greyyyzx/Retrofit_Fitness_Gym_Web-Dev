@@ -5,8 +5,12 @@
 }
 
 body {
-  background-color: #000; /* dark background */
+  background-color: #000; /* dark background hehe */
   font-family: 'Poppins', sans-serif;
+   background-image: url("Images/background.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .navbar {
@@ -42,4 +46,58 @@ body {
 
 .nav-links a:hover {
   color: #f4c20d; 
+}
+.hero img{
+  width: 100%;
+}
+/* ito yung naging div natin sa 4 images */
+.services-section {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.service-card {
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #444;
+}
+
+/* Left image*/
+.service-card img {
+    width: 40%;
+    object-fit: cover;
+}
+
+/* RIGHT TEXT BOX */
+.service-text {
+    width: 60%;
+    background: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.service-text h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 10px;
 }

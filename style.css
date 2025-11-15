@@ -15,33 +15,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 60px;
+  padding: 10px 10px;  
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  color: #f4c20d; /* gold/yellow text */
-  font-weight: bold;
-  font-size: 1.2rem;
-}
 
 .logo img {
-  width: 50px;
+  width: 300px;
   height: auto;
-  margin-right: 10px;
-}
+  margin: 0;
 
-.logo small {
-  font-size: 0.7rem;
-  color: #f4c20d;
-  letter-spacing: 1px;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
   gap: 40px;
+  margin-right: 70px;
 }
 
 .nav-links a {
@@ -52,5 +41,5 @@ body {
 }
 
 .nav-links a:hover {
-  color: #f4c20d; /* gold hover effect */
+  color: #f4c20d; 
 }

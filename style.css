@@ -101,3 +101,73 @@ body {
     text-decoration: none;
     margin-top: 10px;
 }
+
+/*boxes*/
+
+.lower-half {
+width: 100%;
+padding: 20px 40px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+
+/* MAIN GRID AREA (the 4 boxes) */
+.layout-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto auto;
+gap: 20px;
+}
+
+
+/* Boxes */
+.box {
+background-color: rgba(54, 54, 54, 1.0);
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-size: 20px;
+padding: 10px;
+}
+
+
+.small {
+height: 250px;
+}
+
+
+.large {
+height: 250px;
+}
+
+
+.tall {
+height: 250px;
+}
+
+
+.wide-small {
+height: 250px;
+}
+
+
+/* FAQ SECTION */
+.faq-block {
+width: 100%;
+background-color: #dfdfdf;
+border: 3px solid #4fa3ff;
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+font-size: 18px;
+}
+
+
+.faq-row {
+background-color: #e8e8e8;
+padding: 10px;
+}

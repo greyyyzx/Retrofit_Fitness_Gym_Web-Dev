@@ -124,7 +124,7 @@ gap: 20px;
 
 /* Boxes */
 .box {
-background-color: rgba(54, 54, 54, 1.0);
+background-color: rgba(54, 54, 54, 0.8);
 display: flex;
 justify-content: center;
 align-items: center;

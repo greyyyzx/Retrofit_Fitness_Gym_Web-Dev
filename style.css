@@ -158,7 +158,6 @@ height: 250px;
 .faq-block {
 width: 100%;
 background-color: #dfdfdf;
-border: 3px solid #4fa3ff;
 padding: 20px;
 display: flex;
 flex-direction: column;
@@ -170,4 +169,31 @@ font-size: 18px;
 .faq-row {
 background-color: #e8e8e8;
 padding: 10px;
+}
+
+/* Footer ito */
+.footer {
+    width: 100%;
+    background-color:rgb(51, 50, 50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    box-sizing: border-box;
+    color: #ddd;
+}
+
+.footer-left h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-left p {
+    margin: 10px 0;
+}
+
+
+.footer-right img {
+    width: 150px;   
+    height: auto;
 }

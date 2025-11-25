@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retrofit Fitness Gym</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/membership.css">
 </head>
-<body class="bg">
+<body class="bg" background="Images/background.jpeg">
 
     <!-- Navigation -->
     <header>
@@ -25,19 +25,22 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Be a Member of <br>Retrofit Fitness Gym!</h1>
+<section class="hero">
+    <div class="overlay">
+        <h1>Be a Member of <br>Retrofit Fitness Gym!</h1>
 
-            <form class="contact-form">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
-                <input type="text" placeholder="Phone Number">
-                <textarea placeholder="Message / Inquiry"></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-    </section>
+        <form class="contact-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="text" placeholder="Phone Number" required>
+            <textarea placeholder="Message / Inquiry"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+
+     
 
     <!-- Contact Section -->
   <footer class="footer">
@@ -57,6 +60,5 @@
         <img src= "Images/retrofit logo.png" alt="Logo">
     </div>
 </footer>
-
 </body>
 </html>

@@ -229,110 +229,31 @@ header nav a:hover {
   background: #d39a39;
 }
 
-/*services*/
-/* HERO SECTION */
-.hero {
-    position: relative;
-    text-align: center;
-}
-
-.service_one{
-
-  margin-left: 70px;
-  display: flex;
-  align-items: center;
-  filter: brightness(65%);
-}
-
-/* DESCRIPTION */
-.description {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.4);
-  margin-left: 70px;
-  margin-right: 70px;
-  padding: 30px 40px;
-  text-align: justify;
-}
-
-/* SCHEDULE BOX */
-.schedule-box {
-    width: 85%;
-    margin-top: 50px;
-    margin: 0 auto;
-    background: #dcdcdc;
-    color: black;
-    padding: 40px;
-    margin-bottom: 40px;
-}
-
-.schedule-box h3 {
-    font-size: 20px;
-}
-
-/* PRICE SECTION */
-.pricing-section {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 50px;
-}
-
-.big-box {
-    width: 120px;
-    height: 120px;
-    background: #dcdcdc;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-}
-
-.small-box {
-    width: 120px;
-    height: 120px;
-    background: #dcdcdc;
-}
 
 /* Footer */
-footer {
-  background: #222;
-  color: white;
-  padding: 30px;
-}
 
-footer h3 {
-  margin-bottom: 15px;
-}
-
-/* FAQ SECTION */
-.faq-block {
-  width: 100%;
-  background-color: #dfdfdf;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-size: 18px;
-}
-
-
-.faq-row {
-  background-color: #e8e8e8;
-  padding: 10px;
-}
-
-/* Footer ito */
 .footer {
-  width: 100%;
+ position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  max-width: 100vw;
+
   background-color: rgb(51, 50, 50);
+  color: #ddd;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px 80px;
   box-sizing: border-box;
-  color: #ddd;
+
+  min-height: 320px;
 }
+
+
 
 .footer-left h3 {
   margin-bottom: 20px;

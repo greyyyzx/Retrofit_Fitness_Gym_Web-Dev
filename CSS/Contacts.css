@@ -129,3 +129,12 @@ margin-top: 15px;
   width: 150px;
   height: auto;
 }
+
+.footer-left a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-left a:hover {
+  color: #f4c20d; 
+}

@@ -276,8 +276,8 @@ header nav a:hover {
 }
 
 .big-box {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     background: #dcdcdc;
     color: black;
     display: flex;

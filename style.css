@@ -166,7 +166,7 @@ body {
 .bg {
   background-image: url("Images/background.jpeg") no-repeat center center/cover;
   font-family: 'Poppins', sans-serif;
-  /*background-image: url("Images/cta.jpg");*/
+  background-image: url("Images/cta.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;

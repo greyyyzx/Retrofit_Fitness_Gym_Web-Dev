@@ -204,3 +204,91 @@ body {
 .footer-left a:hover {
   color: #f4c20d; 
 }
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 180px;
+    }
+
+    .nav-links {
+        margin-right: 0;
+        gap: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* HERO IMAGE */
+    .hero img,
+    .hero-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hero-image-container {
+        padding: 30px 0;
+    }
+
+    /* DESCRIPTION BOXES */
+    .description {
+        margin: 20px auto;
+        width: 95%;
+        padding: 20px;
+    }
+
+    .desc-box {
+        padding: 20px;
+    }
+
+    /* FOOTER */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+        padding: 30px 25px;
+    }
+
+    .footer-right img {
+        width: 120px;
+    }
+}
+
+/* ------- Small Phones (≤ 480px) ------- */
+@media (max-width: 480px) {
+
+    /* NAVBAR */
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+
+    /* HERO */
+    .hero-image-container {
+        padding: 20px 0;
+    }
+
+    /* DESCRIPTION TEXT */
+    .desc-box h3 {
+        font-size: 18px;
+    }
+
+    .desc-box p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    /* FOOTER */
+    .footer {
+        padding: 20px 15px;
+    }
+
+    .footer-right img {
+        width: 100px;
+    }
+}

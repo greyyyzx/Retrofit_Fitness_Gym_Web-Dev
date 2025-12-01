@@ -138,3 +138,117 @@ margin-top: 15px;
 .footer-left a:hover {
   color: #f4c20d; 
 }
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .logo img {
+        width: 180px;
+    }
+
+    .nav-links {
+        gap: 25px;
+        margin-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* HERO IMAGE */
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* INFO SECTION */
+    .info-section {
+        flex-direction: column;
+        gap: 25px;
+        padding: 30px 0;
+    }
+
+    .info-box {
+        width: 100%;
+    }
+
+    /* MEMBERSHIP SECTION */
+    .membership {
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .membership img {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .membership-text h2 {
+        font-size: 24px;
+    }
+
+    /* FOOTER */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+        gap: 25px;
+    }
+
+    .footer-right img {
+        width: 120px;
+    }
+}
+
+
+/* ---------- Mobile (≤ 480px) ---------- */
+@media (max-width: 480px) {
+
+    /* NAVBAR TEXT */
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+
+    /* INFO SECTION ICONS */
+    .info-box i {
+        font-size: 26px;
+    }
+
+    .info-box h4 {
+        font-size: 16px;
+    }
+
+    .info-box p {
+        font-size: 14px;
+    }
+
+    /* MEMBERSHIP SECTION */
+    .membership img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .membership-text h2 {
+        font-size: 22px;
+    }
+
+    /* BUTTON */
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    /* FOOTER */
+    .footer {
+        padding: 20px 10px;
+    }
+
+    .footer-right img {
+        width: 100px;
+    }
+}
